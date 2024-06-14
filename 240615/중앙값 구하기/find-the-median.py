@@ -5,8 +5,12 @@ if a<b:
         print(a)
     elif c<b:
         print(c)
-else:
+    else:
+        print(b)
+else :
     if b>c :
         print(b)
     elif a<c:
         print(a)
+    else:
+        print(c)

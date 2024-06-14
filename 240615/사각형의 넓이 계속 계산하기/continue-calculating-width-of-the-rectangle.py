@@ -1,6 +1,9 @@
-while True:
-    a,b,c = map(str,input().split())
-    if c == 'c':
-        break
-    a,b = int(a),int(b)
-    print(a*b)
+while(True):
+	inp = input()
+	arr = inp.split()
+	w = int(arr[0])
+	h = int(arr[1])
+	a = arr[2]	
+	print(w * h)		
+	if a == 'C':
+		break

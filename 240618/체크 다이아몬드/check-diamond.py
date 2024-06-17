@@ -14,4 +14,3 @@ for j in range(n-1,0,-1):
         print('* ',end='')
         count += 1
     print('*')
-#첫번째 공백은 n-i-1로 하고 이후 (공백+별) *i 개수

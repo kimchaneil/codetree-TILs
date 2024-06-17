@@ -10,7 +10,7 @@ for i in range(1,n+1,1):
 for j in range(n-1,0,-1):
     count=0
     print(' '*(n-j),end='')
-    while count != (j-n+2):
+    while count != (j-1):
         print('* ',end='')
         count += 1
     print('*')
